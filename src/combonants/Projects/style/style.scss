@@ -1,0 +1,34 @@
+@use "../../main-style/style.scss";
+
+.projects-container {
+    margin-top: 220px; color: style.$color; padding-bottom: 100px;
+    .expreienice-header {
+        text-align: center;
+        padding: 10px;background-color: style.$secand-bg;
+        text-transform: capitalize; width: fit-content;
+        margin-left: auto; margin-right: auto;border-radius: 10px;
+        font-size: 1.2em;
+    }
+    .project-Inner {
+        color:style.$color;
+        display: grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+        gap: 30px 5px; margin: 50px 150px;
+    }
+    .card-setting {
+        color: style.$color;background-color: style.$secand-bg;
+        border-radius: 10px; box-shadow: .5px .5px .5px .5px;}
+    .container-allTogel {
+        width: 400px; margin-left: auto; margin-right: auto;margin-top: 50px;
+        .Toggel-container {
+            width: 400px;border-radius: 15px;
+            background-color: style.$secand-bg;
+            color: style.$color; font-weight: bold;
+            .toggel-button {
+                color: style.$color; font-weight: bold;
+            }        
+        }
+    
+    }
+}
+
+

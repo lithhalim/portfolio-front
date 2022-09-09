@@ -1,0 +1,73 @@
+@use "../../main-style/style.scss";
+
+
+
+.Home-section-container {
+    display: flex; text-transform: capitalize; font-weight: bold;
+    position: relative; top: 100px; left: 0;color:style.$color;
+    margin: 20px 150px; justify-content: space-between; height: 400px;
+    height: 70vh;
+    justify-content: space-between;
+    .home-leftSide {
+        margin: 100px 10px;
+        width: 40vw;
+        .icon-holder {
+            display: flex; align-items: center;
+            justify-content: space-between;
+            width: 360px;margin: 0px 15px;
+        }
+        h1 {
+            padding: 10px 20px;
+        }
+        #element {
+            font-size: 1.2em;
+            color: style.$hover-color;
+            height: 120px;
+        }
+    }
+    .home-right-side {
+        width: 40vw;
+        img {
+            max-width: 80%;
+            height: 100%;
+            border-radius: 50px 50px 0px 0px;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:1060px) {
+    .Home-section-container {
+        display: block;
+    }
+    .home-leftSide  {
+        width: 100vw; margin: 0;
+    }
+    
+    .home-right-side {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .Home-section-container {
+        display: block;
+        margin:0;
+    }
+    .home-leftSide  {
+        width: 100vw;margin: 0;
+    }
+    .home-right-side {
+        display: none;
+    }
+    .icon-holder h1 {
+        padding: 0;
+    }
+    
+}
+
+

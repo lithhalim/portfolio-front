@@ -1,0 +1,37 @@
+@use "../../main-style/style.scss";
+.slider {
+    position: relative; padding: 0px 15px;
+    .left, .right {
+        display: flex;align-items: center;justify-content: center;
+        position: absolute;left: 0;top: 50%;
+        cursor: pointer; z-index: 1000000;
+    }
+    .right {
+        left: 100%; top: 50%;
+    }
+
+
+
+.Slider-container{
+    width: 100%; overflow-x: hidden; position: relative; margin-top: 30px;
+.slider-section {
+    display: flex; justify-content: center;
+
+    img {
+        width: 120px; height: 120px;margin: 10px 45px;
+    }
+    p{
+        text-transform: capitalize; font-weight: bold;
+        text-align: center;
+    }
+}
+
+}
+
+}
+
+
+.header-slider {
+    font-size: 1.3em; text-transform: capitalize;padding: 50px 50px 15px 50px;
+    color: style.$hover-color; 
+}

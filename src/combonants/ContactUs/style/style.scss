@@ -1,0 +1,78 @@
+@use "../../main-style/style.scss";
+
+*{font-family: style.$font;}
+.containus-container{
+    color: style.$color;
+ .expreienice-header {
+        text-align: center;margin-bottom: 70px;
+        padding: 10px;background-color: style.$secand-bg;
+        text-transform: capitalize; width: fit-content;
+        margin-left: auto; margin-right: auto;border-radius: 10px;
+        font-size: 1.2em;
+    }
+
+}
+
+#contact-container{
+    display: flex;justify-content: space-around;flex-direction: row;
+    width: 70%;margin-left: auto; margin-right: auto;
+    margin-bottom: 100px;
+    flex-wrap: wrap;text-align: center;color: style.$color; text-transform: capitalize;
+        #contact-form{
+            display: flex;justify-content: space-around;align-items: center;flex-direction: column;
+            #mail-input {width: 93%;}
+            #subject-input {width: 93%;} 
+            #subject-input{resize: vertical; min-height: 3em;}   
+            input ,textarea {
+                background-color: style.$hover-color;color: style.$color;
+            }
+        }
+
+        form input, form textarea{
+            padding: 1em;margin: 1em;border: 0px;border-radius: 0.5em;
+            border: 0.2em solid var(--transparent);
+          }
+          
+          form input:focus, form textarea:focus{
+            outline: none;background: style.$hover-color;
+            border-color: var(--secondary-colour);
+          }
+
+
+        #traditional-contact{
+            padding: 10px;color: style.$color;
+            li {
+                padding: 15px;
+                &:first-child{
+                    font-weight: bold; font-size: 1.4em;
+                }
+            }
+            .icon-section {
+                display: flex; width: 180px; justify-content: space-between;
+                margin-left: auto; margin-right: auto;
+                p{
+                    cursor: pointer;
+                    :hover {
+                        color:style.$hover-color
+                    }
+                }
+            }
+
+        }
+          
+        #submit-button{
+            padding: 10px 50px;cursor: pointer; text-transform: uppercase; font-weight: bold;
+        }
+          
+          
+        
+    
+
+
+  }
+  
+  
+  
+  
+  
+  

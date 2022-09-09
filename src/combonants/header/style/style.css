@@ -1,0 +1,10 @@
+@use "../../main-style/style.scss";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */

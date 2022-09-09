@@ -1,0 +1,57 @@
+@use "../../main-style/style.scss";
+
+.Aboutme-container {
+    position: relative; top: 150px; color:style.$color;
+    margin-bottom: 100px;
+    .expreienice-header {
+        text-align: center;
+        padding: 10px;background-color: style.$secand-bg;
+        text-transform: capitalize; width: fit-content;
+        margin-left: auto; margin-right: auto;border-radius: 10px;
+        font-size: 1.2em;
+    }
+    .about-me-holder {
+        display: flex; margin: 150px 150px; display: flex; align-items: center;
+        flex-wrap: wrap;
+        .about-left {
+            min-width: 350px;
+            flex-basis: 50%;
+            img {
+                width: 100%;
+            }
+        }
+        .about-right {
+            flex-basis: 50%;
+            min-width: 400px;
+            ul {
+                display: flex;justify-content: space-around;
+                text-align: center; 
+                li{
+                    background-color: style.$secand-bg;
+                    padding: 10px; border-radius: 15px;
+                    p{padding: 10px;}
+                }
+            }
+            p{
+                padding: 25px 15px;
+            }
+            .button-section {
+                padding: 15px;color: style.$color;
+            }
+        }
+    }
+    
+
+}
+
+
+
+@media screen and (max-width:1060px) {
+    .about-me-holder{
+        margin: 10px;
+        img {
+            margin-bottom: 50px;
+        }
+    }
+    
+}

@@ -1,0 +1,23 @@
+@use "../../../combonants/main-style/style.scss" ;
+
+.expreience-container {
+    font-family: style.$font;
+    position: relative;top: 150px;left: 0;
+    margin: 50px 150px;color: style.$color;
+    .expreienice-header {
+        text-align: center;
+        padding: 10px;background-color: style.$secand-bg;
+        text-transform: capitalize; width: fit-content;
+        margin-left: auto; margin-right: auto;border-radius: 10px;
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .expreience-container {
+        margin: 50px 80px;
+    }
+
+    
+}
