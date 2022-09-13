@@ -38,7 +38,7 @@ function Home_page() {
         <h1>Welcome to protfolio</h1>
         <h1 id='element'></h1>
         <div className="icon-holder">
-          <a href="cv.txt" download="cv.txt">
+          <a href="cv.pdf" download="cv.pdf">
             <Button variant="outlined" style={{color:"rgb(255, 255, 255)",border:"2px solid rgb(255, 255, 255) "}}>download cv <CloudDownloadIcon style={{marginLeft:"10px"}}/></Button>
           </a>
           <Button variant="outlined" style={{border:"2px solid rgb(255, 255, 255) "}}> <Link spy={true} smooth={true} duration={500}  offset={-70} to="project" style={{display:"flex",alignItems:"center",color:"rgb(255, 255, 255)",}}>  see my work <AspectRatioIcon style={{marginLeft:"10px"}}/></Link></Button>
