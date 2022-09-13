@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import "./style/style.scss";
-import personalImage from "../../assest/presonalimage.jpg";
+import personalImage from "../../assest/presonalimage.png";
 import Button from '@mui/material/Button';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
