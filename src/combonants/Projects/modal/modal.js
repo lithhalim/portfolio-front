@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
-import { Player } from 'video-react';
+import ReactPlayer from 'react-player';
 
 
 
@@ -23,10 +23,7 @@ export default function Modal_Project({tutorial}) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-            <Player>
-            <source src={tutorial} />
-            </Player>
-
+            <ReactPlayer controls url={tutorial}/>
         </Box>
       </Modal>
     </div>
@@ -39,6 +36,5 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 900,
   };
   
