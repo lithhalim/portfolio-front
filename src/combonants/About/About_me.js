@@ -33,7 +33,7 @@ function About_me() {
                             <p><HomeIcon/></p> <h2>Introduction</h2> <p>1 Year Self Study</p>
                         </li>
                     </ul>
-                    <p>the main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations."the pictures are clear and relate well to the text"Similar:wordswordingsubject mattercontentcontentsbodymain bo</p>
+                    <p>Software Developer with a positive attitude ,strong work ethic , and desire for learning and development ,an experience in ASAC  luminus has enhanced my skills in dealing with programming languages and Project Management Currently iam seeking to working In programming industry ,as web development </p>
                     <div className='button-section'>
                             <Button  variant="contained" style={{color:"rgb(255, 255, 255)",border:"2px solid rgb(255, 255, 255)" ,backgroundColor:"#361500"}}> <Link spy={true} smooth={true} duration={500}  offset={-70} to="contactMe" style={{display:"flex",alignItems:"center"}}><AlternateEmailIcon/> <span style={{marginLeft:"10px"}}>Contact With Me</span></Link> </Button>
                     </div>
