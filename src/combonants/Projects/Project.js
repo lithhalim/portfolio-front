@@ -8,17 +8,24 @@ import { useInView } from 'react-intersection-observer';
 
 
 //-------------------------------------------image section --------------------------------------------//
-import image1 from "../../assest/frontEnd/css.png";
-import image2 from "../../assest/frontEnd/css.png";
+import eccomersImage from "../../assest/ProjectImage/eccomers1.png";
+import socialimage from "../../assest/ProjectImage/social-image.png";
 import image3 from "../../assest/frontEnd/html.png";
 import image4 from "../../assest/frontEnd/js.png";
 import image5 from "../../assest/frontEnd/scss.png";
 
 //-------------------------------------------vedio section ---------------------------------------------//
 import vedio1 from "../../assest/vedio/videoplayback.mp4";
+import EcommersVedio from "../../assest/vedio/eccomers.mp4";
+import socialvedio from "../../assest/vedio/social-vedio.mp4"
+
 import { useState } from 'react';
 
-let dataUse=[{github:"https://github.com/lithhalim/store-frontend",netlify:"",tutorial:vedio1,image:image1,type:"bigProject"},{github:"",netlify:"",tutorial:vedio1,image:image2,type:"bigProject"},{github:"",netlify:"",tutorial:vedio1,image:image3,type:"smallProject"},{github:"",netlify:"",tutorial:vedio1,image:image4,type:"smallProject"},{github:"",netlify:"",tutorial:vedio1,image:image5,type:"bigProject"}]
+let dataUse=[{github:"https://github.com/lithhalim/eccomers-front",netlify:"https://eccomers-application-lith.netlify.app/",tutorial:EcommersVedio,image:eccomersImage,type:"bigProject"},
+{github:"https://github.com/lithhalim/face-frontEnd-project",netlify:"https://chate-application-lith.netlify.app/",tutorial:socialvedio,image:socialimage,type:"bigProject"},
+{github:"",netlify:"",tutorial:vedio1,image:image3,type:"smallProject"},
+{github:"",netlify:"",tutorial:vedio1,image:image4,type:"smallProject"},
+{github:"",netlify:"",tutorial:vedio1,image:image5,type:"bigProject"}]
 
 
 
