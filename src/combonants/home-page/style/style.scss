@@ -57,12 +57,13 @@
     .Home-section-container {
         display: block;
         margin:0;
-    }
-    .home-leftSide  {
-        width: 100vw;margin: 0;
-    }
-    .home-right-side {
-        display: none;
+        .home-leftSide  {
+            width: 100%;margin: 20px 30px;
+        }
+        .home-right-side {
+            display: block; margin-left: 30vw; margin-right: auto;
+        }    
+    
     }
     .icon-holder h1 {
         padding: 0;

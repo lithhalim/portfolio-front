@@ -55,3 +55,16 @@
     }
     
 }
+
+@media screen and (max-width:600px) {
+    .Aboutme-container{
+        .about-me-holder{
+            margin: 20px 30px;
+        }
+
+        .about-right {
+            min-width: 200px;
+        }
+    }    
+
+}

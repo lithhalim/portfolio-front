@@ -32,3 +32,14 @@
 }
 
 
+
+@media screen and (max-width:600px) {
+    .projects-container{
+        .project-Inner{
+            margin: 20px 30px;
+            display: grid; grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        }
+    }
+
+}
+
