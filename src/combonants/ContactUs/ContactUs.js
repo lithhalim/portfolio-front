@@ -56,7 +56,7 @@ function ContactUs() {
         <motion.div id="contact-container" ref={ref} animate={animatetion}>
             <form id="contact-form" action="action_page.php" onSubmit={GetData}>
                 <div id="name-container">
-                    <input id="first-name-input" type="text" name="firstname" placeholder="First name"></input>
+                    <input id="first-name-input" type="text" name="firstname" placeholder="First name" ></input>
                     <input id="last-name-input" type="text" name="lastname" placeholder="Last name"></input>
                 </div>
                 <input id="mail-input" type="email" name="mail" placeholder="Email" required/>

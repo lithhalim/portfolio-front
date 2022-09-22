@@ -27,7 +27,7 @@ function Header() {
               <li> <Link   spy={true} smooth={true} duration={500} offset={-70}  to="home" ><HomeIcon/><span>home</span></Link> </li>
               <li> <Link  spy={true} smooth={true} duration={500} offset={-70} to="servises" ><MiscellaneousServicesIcon/> <span>services</span></Link> </li>
               <li><Link  spy={true} smooth={true} duration={500}  offset={-70} to="project" > <AppsIcon/> <span>Projects</span></Link>   </li>
-              <li> <Link spy={true} smooth={true} duration={500}  offset={-70} to="contactMe"> <AlternateEmailIcon/> <span>contact</span></Link> </li>
+              <li> <Link spy={true} smooth={true} duration={500}  offset={-70} to="contactMe"> <AlternateEmailIcon/> <span className='contact-item-section'>contact</span></Link> </li>
           </motion.ul>
           :<></>}
           <div className='show-Nav' onClick={ShowItem}>

@@ -62,9 +62,22 @@
             margin: 20px 30px;
         }
 
-        .about-right {
-            min-width: 200px;
+        .about-me-holder  {
+            .about-right {
+                ul {
+                    li{
+                        padding: 7px; border-radius: 15px;
+                        p{padding: 7px;}
+                        font-size: .8em;
+                    }
+                }
+            }    
+
         }
+
     }    
+        
+    
+
 
 }

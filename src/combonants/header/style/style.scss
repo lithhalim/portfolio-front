@@ -35,8 +35,11 @@ body{
 
 @media screen and (max-width:600px) {
     .Nav-bar-section  {
+        .contact-item-section {
+            display: none;
+        }
         a{
-            padding:  12px 0px; 
+            padding:  12px 10px; 
         }
     }
     
