@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
 import "./style/style.scss";
-import personalImage from "../../assest/presonalimage.png";
 import Button from '@mui/material/Button';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
@@ -12,9 +11,12 @@ import {Link} from "react-scroll";
 import {motion} from "framer-motion"
 import About_me from '../About/About_me';
 
+import personalImage from "../../assest/header-image.png";
+
+
 let i=0
 function Home_page() {
-  let text="Iam  Full  Stack  Developer  I use  ReactJs  in  the  frontend,  I use NodeJS  for  the  backend,  and I love the design of the frontend using reactjs"
+  let text="My Name Is LITH HALIM  i`m Full Stack Developer."
 
   useEffect(()=>{
     setInterval(()=>{
@@ -35,7 +37,7 @@ function Home_page() {
     <>
     <div className='Home-section-container' id="home">
       <div className='home-leftSide'>
-        <h1>Welcome to protfolio</h1>
+        <h1>Welcome To My protfolio</h1>
         <h1 id='element'></h1>
         <div className="icon-holder">
           <a href="cv.pdf" download="cv.pdf">
@@ -45,7 +47,7 @@ function Home_page() {
         </div>
       </div>
       <div className='home-right-side'>
-        <motion.img src={personalImage} alt=""  initial={{opacity:0 ,scale:.2 }} animate={{opacity:1,scale:1 }}  transition={{duration:3 ,type:"tween"}}/>
+        <motion.img src={personalImage} alt="" style={{width:"80%",height:"350px"}}  initial={{opacity:0 ,scale:.2 }} animate={{opacity:1,scale:1 }}  transition={{duration:3 ,type:"tween"}}/>
       </div>
     </div>
     <About_me/>

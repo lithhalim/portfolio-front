@@ -5,9 +5,10 @@ import HomeIcon from '@mui/icons-material/Home';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
 import Button from '@mui/material/Button';
-import {Link} from "react-scroll"
+import {Link} from "react-scroll";
 
-import aboutme from "../../assest/aboutme/images-removebg-preview.png";
+
+import aboutme from "../../assest/aboutme/button-section.png";
 
 
 function About_me() {
@@ -18,9 +19,10 @@ function About_me() {
         </motion.h1>
 
         <div className='about-me-holder'>
-            <div className='about-left' >
-                <img src={aboutme} alt=""  />
+            <div className='about-left'>
+                <motion.img src={aboutme} alt=""  initial={{opacity:0 ,scale:.2 }} animate={{opacity:1,scale:1 }}  transition={{duration:3 ,type:"tween"}}/>
             </div>
+
             <div className='about-right'>
                     <ul>
                         <li>
@@ -30,12 +32,12 @@ function About_me() {
                             <p><MiscellaneousServicesIcon/></p> <h2>Projects</h2> <p>8 Mixed Project</p>
                         </li>
                         <li>
-                            <p><HomeIcon/></p> <h2>Introduction</h2> <p>1 Year Self Study</p>
+                            <p><MiscellaneousServicesIcon/></p> <h2>Projects</h2> <p>8 Mixed Project</p>
                         </li>
                     </ul>
-                    <p>Software Developer with a positive attitude ,strong work ethic , and desire for learning and development ,an experience in ASAC  luminus has enhanced my skills in dealing with programming languages and Project Management Currently iam seeking to working In programming industry ,as web development </p>
+                    <p style={{fontWeight:"bold",textAlign:"center"}}>Software Developer with a positive attitude ,strong work ethic , and desire for learning and development ,an experience in ASAC  luminus has enhanced my skills in dealing with programming languages and Project Management Currently iam seeking to working In programming industry ,as web development </p>
                     <div className='button-section'>
-                            <Button  variant="contained" style={{color:"rgb(255, 255, 255)",border:"2px solid rgb(255, 255, 255)" ,backgroundColor:"#361500"}}> <Link spy={true} smooth={true} duration={500}  offset={-70} to="contactMe" style={{display:"flex",alignItems:"center"}}><AlternateEmailIcon/> <span style={{marginLeft:"10px"}}>Contact With Me</span></Link> </Button>
+                            <Button  variant="contained" style={{color:"rgb(255, 255, 255)",border:"2px solid rgb(255, 255, 255)" ,backgroundColor:"#5F6F94"}}> <Link spy={true} smooth={true} duration={500}  offset={-70} to="contactMe" style={{display:"flex",alignItems:"center"}}><AlternateEmailIcon/> <span style={{marginLeft:"10px"}}>Contact With Me</span></Link> </Button>
                     </div>
             </div>
 
