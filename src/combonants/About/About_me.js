@@ -32,7 +32,7 @@ function About_me() {
                             <p><MiscellaneousServicesIcon/></p> <h2>Projects</h2> <p>8 Mixed Project</p>
                         </li>
                         <li>
-                            <p><MiscellaneousServicesIcon/></p> <h2>Projects</h2> <p>8 Mixed Project</p>
+                            <p><MiscellaneousServicesIcon/></p> <h2>certification</h2> <p>HTML CSS JS</p>
                         </li>
                     </ul>
                     <p style={{fontWeight:"bold",textAlign:"center"}}>Software Developer with a positive attitude ,strong work ethic , and desire for learning and development ,an experience in ASAC  luminus has enhanced my skills in dealing with programming languages and Project Management Currently iam seeking to working In programming industry ,as web development </p>
