@@ -37,7 +37,8 @@
     .projects-container{
         .project-Inner{
             margin: 20px 30px;
-            display: grid; grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+            display: flex; flex-direction: column;
+            align-items: center; 
         }
     }
 

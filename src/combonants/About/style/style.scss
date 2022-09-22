@@ -63,6 +63,11 @@
         }
 
         .about-me-holder  {
+            .about-left {
+                img {
+                    display: none;
+                }
+            }
             .about-right {
                 ul {
                     li{
