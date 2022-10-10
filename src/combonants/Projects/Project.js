@@ -13,7 +13,7 @@ import socialimage from "../../assest/ProjectImage/social-image.png";
 import storeimage from "../../assest/ProjectImage/store-image.png";
 import todoimage from "../../assest/ProjectImage/todo-list.png";
 import fotballImage from "../../assest/ProjectImage/imageFootball.png";
-import syarahimage from "../../assest/ProjectImage/eccomers1.png"
+import syarahimage from "../../assest/ProjectImage/syarahimage.png"
 //-------------------------------------------vedio section ---------------------------------------------//
 import vedio1 from "../../assest/vedio/videoplayback.mp4";
 import EcommersVedio from "../../assest/vedio/eccomers.mp4";
