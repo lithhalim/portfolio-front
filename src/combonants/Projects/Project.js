@@ -13,7 +13,8 @@ import socialimage from "../../assest/ProjectImage/social-image.png";
 import storeimage from "../../assest/ProjectImage/store-image.png";
 import todoimage from "../../assest/ProjectImage/todo-list.png";
 import fotballImage from "../../assest/ProjectImage/imageFootball.png";
-import syarahimage from "../../assest/ProjectImage/syarahimage.png"
+import syarahimage from "../../assest/ProjectImage/syaraheccomers.png";
+import sweetproject from "../../assest/ProjectImage/sweeteccomers.png";
 //-------------------------------------------vedio section ---------------------------------------------//
 import vedio1 from "../../assest/vedio/videoplayback.mp4";
 import EcommersVedio from "../../assest/vedio/eccomers.mp4";
@@ -29,7 +30,8 @@ let dataUse=[{github:"https://github.com/lithhalim/eccomers-front",netlify:"http
 {github:"https://github.com/lithhalim/store-frontend",netlify:"https://cozy-fenglisu-af2346.netlify.app/",tutorial:vedio1,image:storeimage,type:"smallProject"},
 {github:"https://github.com/lithhalim/Todo-List",netlify:"https://6321b90a50be9b0aec67c4bd--warm-sprinkles-1d72ae.netlify.app/",tutorial:vedio1,image:todoimage,type:"smallProject"},
 {github:"https://github.com/lithhalim/Football_frontEnd",netlify:"https://app.netlify.com/sites/footballwebsite11/overview",tutorial:football,image:fotballImage,type:"bigProject"},
-{github:"https://github.com/lithhalim/syarah-frontend",netlify:"https://syarah.netlify.app/",tutorial:football,image:syarahimage,type:"bigProject"}]
+{github:"https://github.com/lithhalim/syarah-frontend",netlify:"https://syarah-eccomers.netlify.app/",tutorial:football,image:syarahimage,type:"bigProject"},
+{github:"https://github.com/lithhalim/sweet-frontEnd",netlify:"https://sweet-eccomers.netlify.app/",tutorial:football,image:sweetproject,type:"bigProject"}]
 
 
 
