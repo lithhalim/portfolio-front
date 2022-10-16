@@ -21,7 +21,7 @@ import sweetvedio from "../../assest/vedio/sweet.mp4";
 import footballvedio from "../../assest/vedio/football.mp4";
 import eccomersVedio from "../../assest/vedio/eccomers.mp4";
 import facebookvedio from "../../assest/vedio/facebook.mp4";
-import othervedio from "../../assest/vedio/othervedio.mp4";
+import othervedio from "../../assest/vedio/videoplayback.mp4";
 
 
 
