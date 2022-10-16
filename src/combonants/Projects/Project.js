@@ -25,13 +25,15 @@ import football from "../../assest/vedio/football.mp4";
 
 import { useState } from 'react';
 
-let dataUse=[{github:"https://github.com/lithhalim/eccomers-front",netlify:"https://eccomers-application-lith.netlify.app/",tutorial:EcommersVedio,image:eccomersImage,type:"bigProject"},
+let dataUse=[
+{github:"https://github.com/lithhalim/sweet-frontEnd",netlify:"https://sweet-eccomers.netlify.app/",tutorial:football,image:sweetproject,type:"bigProject"},
+{github:"https://github.com/lithhalim/syarah-frontend",netlify:"https://syarah-eccomers.netlify.app/",tutorial:football,image:syarahimage,type:"bigProject"},
 {github:"https://github.com/lithhalim/face-front",netlify:"https://634be91b47ed83696ddf09fc--brilliant-fairy-2313ac.netlify.app/",tutorial:socialvedio,image:socialimage,type:"bigProject"},
+{github:"https://github.com/lithhalim/eccomers-front",netlify:"https://eccomers-application-lith.netlify.app/",tutorial:EcommersVedio,image:eccomersImage,type:"bigProject"},
+{github:"https://github.com/lithhalim/Football_frontEnd",netlify:"https://app.netlify.com/sites/footballwebsite11/overview",tutorial:football,image:fotballImage,type:"bigProject"},
 {github:"https://github.com/lithhalim/store-frontend",netlify:"https://cozy-fenglisu-af2346.netlify.app/",tutorial:vedio1,image:storeimage,type:"smallProject"},
 {github:"https://github.com/lithhalim/Todo-List",netlify:"https://6321b90a50be9b0aec67c4bd--warm-sprinkles-1d72ae.netlify.app/",tutorial:vedio1,image:todoimage,type:"smallProject"},
-{github:"https://github.com/lithhalim/Football_frontEnd",netlify:"https://app.netlify.com/sites/footballwebsite11/overview",tutorial:football,image:fotballImage,type:"bigProject"},
-{github:"https://github.com/lithhalim/syarah-frontend",netlify:"https://syarah-eccomers.netlify.app/",tutorial:football,image:syarahimage,type:"bigProject"},
-{github:"https://github.com/lithhalim/sweet-frontEnd",netlify:"https://sweet-eccomers.netlify.app/",tutorial:football,image:sweetproject,type:"bigProject"}]
+]
 
 
 
