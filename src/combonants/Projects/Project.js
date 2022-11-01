@@ -15,6 +15,7 @@ import todoimage from "../../assest/ProjectImage/todo-list.png";
 import fotballImage from "../../assest/ProjectImage/imageFootball.png";
 import syarahimage from "../../assest/ProjectImage/syaraheccomers.png";
 import sweetproject from "../../assest/ProjectImage/sweeteccomers.png";
+import FoodRest from "../../assest/ProjectImage/food-front.png"
 //-------------------------------------------vedio section ---------------------------------------------//
 import syarahvedio from "../../assest/vedio/syarah.mp4";
 import sweetvedio from "../../assest/vedio/sweet.mp4";
@@ -28,6 +29,7 @@ import othervedio from "../../assest/vedio/videoplayback.mp4";
 import { useState } from 'react';
 
 let dataUse=[
+{github:"https://github.com/lithhalim/food-frontend",netlify:"https://food-front.netlify.app/",tutorial:sweetvedio,image:FoodRest,type:"bigProject"},
 {github:"https://github.com/lithhalim/sweet-frontEnd",netlify:"https://sweet-eccomers.netlify.app/",tutorial:sweetvedio,image:sweetproject,type:"bigProject"},
 {github:"https://github.com/lithhalim/syarah-frontend",netlify:"https://syarah-eccomers.netlify.app/",tutorial:syarahvedio,image:syarahimage,type:"bigProject"},
 {github:"https://github.com/lithhalim/face-front",netlify:"https://634be91b47ed83696ddf09fc--brilliant-fairy-2313ac.netlify.app/",tutorial:facebookvedio,image:socialimage,type:"bigProject"},
