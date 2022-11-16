@@ -33,7 +33,6 @@ import { useState } from 'react';
 
 let dataUse=[
 {github:"https://github.com/lithhalim/pos-front",netlify:"https://possystem.netlify.app/",tutorial:PosVedio,image:PosImage,type:"bigProject"},
-{github:"https://github.com/lithhalim/food-frontend",netlify:"https://food-front.netlify.app/",tutorial:Eccomers_Active,image:FoodRest,type:"bigProject"},
 {github:"https://github.com/lithhalim/food-frontend",netlify:"https://food-front.netlify.app/",tutorial:sweetvedio,image:FoodRest,type:"bigProject"},
 {github:"https://github.com/lithhalim/sweet-frontEnd",netlify:"https://sweet-eccomers.netlify.app/",tutorial:sweetvedio,image:sweetproject,type:"bigProject"},
 {github:"https://github.com/lithhalim/syarah-frontend",netlify:"https://syarah-eccomers.netlify.app/",tutorial:syarahvedio,image:syarahimage,type:"bigProject"},
